@@ -21,6 +21,20 @@ const list = [
   }
 ];
 
+let sortedList = list.sort((a,b) => a.index - b.index);
+
+for(let i = 0; i< sortedList.length;i++){
+  const div = document.createElement('div');
+  div.classList.add('list-block')
+  div.innerHTML = `
+  <div class="list-line">
+  <input type="checkbox"  name="${sortedList[i].description}" value="${sortedList[i].description}">
+  <p>${sortedList[i].description}</p>
+  </div>
+  <hr>`;
+  listHolder.appendChild(div);
+
+}
 
 
 
