@@ -1,6 +1,4 @@
-import _ from "lodash";
 import './style.css';
-
 
 const listHolder = document.querySelector('.list-holder');
 
@@ -8,25 +6,25 @@ const list = [
   {
     description: 'Morning Prayers',
     completed: true,
-    index:1
+    index: 1,
   },
   {
     description: 'Going to the Gym',
     completed: true,
-    index:3
+    index: 3,
   },
   {
     description: 'Solving An Algorithmic challenge',
     completed: false,
-    index:2
-  }
+    index: 2,
+  },
 ];
 
-let sortedList = list.sort((a,b) => a.index - b.index);
+const sortedList = list.sort((a, b) => a.index - b.index);
 
-for(let i = 0; i< sortedList.length;i++){
+for (let i = 0; i < sortedList.length; i += 1) {
   const div = document.createElement('div');
-  div.classList.add('list-block')
+  div.classList.add('list-block');
   div.innerHTML = `
   <div class="list-line">
   <input type="checkbox"  name="${sortedList[i].description}" value="${sortedList[i].description}">
@@ -34,8 +32,4 @@ for(let i = 0; i< sortedList.length;i++){
   </div>
   <hr>`;
   listHolder.appendChild(div);
-
 }
-
-
-
