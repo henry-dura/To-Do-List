@@ -1,12 +1,26 @@
 import _ from "lodash";
 import './style.css';
 
-function component() {
-  const element = document.createElement("div");
+const listHolder = document.querySelector('.list-holder');
 
-  element.innerHTML = _.join(["Hello", "webpack"], " ");
+const list = [
+  {
+    description: 'Morning Prayers',
+    completed: true,
+    index:1
+  },
+  {
+    description: 'Going to the Gym',
+    completed: true,
+    index:3
+  },
+  {
+    description: 'Solving An Algorithmic challenge',
+    completed: false,
+    index:2
+  }
+];
 
-  return element;
-}
 
-document.body.appendChild(component());
+
+
