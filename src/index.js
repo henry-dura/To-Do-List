@@ -1,6 +1,7 @@
 import _ from "lodash";
 import './style.css';
 
+
 const listHolder = document.querySelector('.list-holder');
 
 const list = [
