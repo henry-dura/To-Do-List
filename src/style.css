@@ -50,3 +50,12 @@ input[type="checkbox"] {
   border: 0;
   color: gray;
 }
+
+.hide{
+  display: none;
+}
+
+/* .full-list-line:hover +.hide{
+  display: flex;
+  color:red
+} */

@@ -7,8 +7,13 @@ import displayInHtml from "./modules/DisplayInHtml";
 descriptionInput.addEventListener("keypress", function (e) {
   if (e.key === "Enter") {
     add();
-    displayInHtml();
+    displayInHtml(list[list.length - 1]);
     descriptionInput.value = "";
-    console.log(list);
+    localStorage.setItem('Tasks', JSON.stringify(list));
   }
 });
+
+// function deleteTask(e){
+//   console.log(e.target);
+
+// }
