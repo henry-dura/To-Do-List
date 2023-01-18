@@ -1,7 +1,8 @@
 import "./style.css";
-import add,{list,descriptionInput} from './modules/Add.js';
+import add,{list, descriptionInput} from './modules/AddToList.js';
+import displayInHtml from "./modules/DisplayInHtml";
 
-const listHolder = document.querySelector(".list-holder");
+// const listHolder = document.querySelector(".list-holder");
 
 
 
@@ -26,18 +27,18 @@ const listHolder = document.querySelector(".list-holder");
 
 // const sortedList = list.sort((a, b) => a.index - b.index);
 
-const displayInHtml = ()=>{
+// const displayInHtml = ()=>{
   
-    const div = document.createElement("div");
-    div.classList.add("list-block");
-    div.innerHTML = `
-    <div class="list-line">
-    <input type="checkbox"  name="${list[list.length-1].description}" value="${list[list.length-1].description}">
-    <p>${list[list.length-1].description}</p>
-    </div>
-    <hr>`;
-    listHolder.appendChild(div);
-}
+//     const div = document.createElement("div");
+//     div.classList.add("list-block");
+//     div.innerHTML = `
+//     <div class="list-line">
+//     <input type="checkbox"  name="${list[list.length-1].description}" value="${list[list.length-1].description}">
+//     <p>${list[list.length-1].description}</p>
+//     </div>
+//     <hr>`;
+//     listHolder.appendChild(div);
+// }
 
 
 descriptionInput.addEventListener("keypress", function (e) {
