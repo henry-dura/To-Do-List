@@ -16,13 +16,16 @@
   - [License](#license)
 
 
+
 # To DO List
 - To Do List is a simple application that you can use to list your daily tasks and check them off as you complete the task.
+
 
 
 ## Built With
 
 <a href="https://www.w3.org/html/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="55" height="55"/></a><a href="https://www.w3schools.com/css/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="55" height="55"/></a><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="55" height="55"/></a>
+
 
 
 
@@ -50,12 +53,17 @@ Install this project with:
 ```sh
     cd your-desired-folder
     git clone https://github.com/henry-dura/To-Do-List.git
+    - Open it in the Code editor (Visual studio code, sublime text e.t.c) installed on your computer.
+    - In the terminal, run npm start to start the project
+
+    
 ```
 
 ### Run tests
  ```sh
-    - Open it by live server in the VScode.
-    - Check for the linters
+    - Open it in the Code editor (Visual studio code, sublime text e.t.c) installed on your computer.
+    - check for linters
+     
  ```
 
 
