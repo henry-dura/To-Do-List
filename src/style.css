@@ -1,6 +1,14 @@
 .list-line {
   display: flex;
   gap: 20px;
+  align-items: center;
+  
+}
+
+.full-list-line{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .container {
@@ -9,6 +17,7 @@
   margin: 10% auto;
   padding-top: 20px;
 }
+
 
 .heading {
   display: flex;
