@@ -1,3 +1,6 @@
+import displayInHtml from "./DisplayInHtml";
+
+
 export const descriptionInput = document.querySelector("#description-input");
 export const list = [];
 
@@ -14,6 +17,10 @@ class Task {
     if (descriptionInput.value) {
       const task = new Task(descriptionInput.value);
       list.push(task);
+      // displayInHtml(task)
+      descriptionInput.value = "";
+    localStorage.setItem('Tasks', JSON.stringify(list));
+    window.location.reload();
     }
   }
 
