@@ -12,7 +12,8 @@ const displayInHtml = (item) => {
             <p contenteditable="true" class="description-paragraph">${item.description}</p>
         </div>
         
-        <i class="fa-solid fa-trash-can" id="${list.length}" ></i>
+        <i class=" hide fa-solid fa-trash-can" id="${list.length}" ></i>
+        <i class="fa-solid fa-ellipsis-vertical"></i>
     </div>
     <hr>`;
   taskList.appendChild(div);

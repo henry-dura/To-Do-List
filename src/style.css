@@ -16,6 +16,7 @@
   margin: 10% auto;
   padding-top: 20px;
   border-radius: 8px;
+  background: whitesmoke;
 }
 
 .heading {
@@ -31,6 +32,7 @@
 
 input[type="text"] {
   font-size: 1.5rem;
+  padding: 12px 2px;
   width: 100%;
   border: 0;
   font-style: italic;
@@ -40,9 +42,7 @@ input[type="checkbox"] {
   transform: scale(2, 2);
 }
 
-.checkbox-selected{
-  background-color: whitesmoke;
-}
+
 .checkbox-line{
   text-decoration: line-through;
   font-style: italic;
