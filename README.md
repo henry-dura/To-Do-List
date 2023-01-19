@@ -54,6 +54,7 @@ Install this project with:
     cd your-desired-folder
     git clone https://github.com/henry-dura/To-Do-List.git
     - Open it in the Code editor (Visual studio code, sublime text e.t.c) installed on your computer.
+    - Run: npm install webpack webpack-cli --save-dev
     - In the terminal, run npm start to start the project
 
     
@@ -81,7 +82,7 @@ Install this project with:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **Adding and deleting tasks**
+- [ ] **Interactive List**
 - [ ] **Live demo**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

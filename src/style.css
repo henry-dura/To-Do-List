@@ -1,6 +1,13 @@
 .list-line {
   display: flex;
   gap: 20px;
+  align-items: center;
+}
+
+.full-list-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .container {
@@ -41,3 +48,12 @@ input[type="checkbox"] {
   border: 0;
   color: gray;
 }
+
+.hide {
+  display: none;
+}
+
+/* .full-list-line:hover +.hide{
+  display: flex;
+  color:red
+} */
