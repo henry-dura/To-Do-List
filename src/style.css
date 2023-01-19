@@ -42,21 +42,20 @@ input[type="checkbox"] {
   transform: scale(2, 2);
 }
 
-
-.checkbox-line{
+.checkbox-line {
   text-decoration: line-through;
   font-style: italic;
 }
-.fa-trash-can{
+
+.fa-trash-can {
   color: red;
-  text-decoration:none ;
+  text-decoration: none;
 }
 
 .clear {
   width: 100%;
   padding: 24px;
   margin-top: -20px;
-  font-size: 1.2rem;
   background: rgb(209, 123, 123);
   font-weight: 900;
   font-size: 1.4rem;
@@ -64,13 +63,10 @@ input[type="checkbox"] {
   border-radius: 0 0 8px 8px;
 }
 
-.clear:hover{
+.clear:hover {
   background-color: red;
 }
-
 
 .hide {
   display: none;
 }
-
-

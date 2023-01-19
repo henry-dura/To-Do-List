@@ -10,8 +10,6 @@ taskList.addEventListener('click', deleteTask);
 taskList.addEventListener('click', editTask);
 completedTaskRemove();
 
-
-
 descriptionInput.addEventListener('keypress', (e) => {
   if (e.key === 'Enter') {
     add();
