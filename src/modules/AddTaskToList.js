@@ -13,7 +13,6 @@ const add = () => {
   if (descriptionInput.value) {
     const task = new Task(descriptionInput.value);
     list.push(task);
-    // displayInHtml(task)
     descriptionInput.value = '';
     localStorage.setItem('Tasks', JSON.stringify(list));
     window.location.reload();
