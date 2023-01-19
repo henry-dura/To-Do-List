@@ -1,7 +1,7 @@
 export const descriptionInput = document.querySelector('#description-input');
 export const list = [];
 
-class Task {
+export class Task {
   constructor(description) {
     this.description = description;
     this.completed = false;
