@@ -1,7 +1,7 @@
 import "./style.css";
-import add,{list, descriptionInput} from './modules/AddToList.js';
-import displayInHtml,{taskList} from "./modules/DisplayInHtml";
-import storedData from "./modules/LoadStoredData";
+import add,{list, descriptionInput} from './modules/AddTaskToList.js';
+import displayInHtml,{taskList} from "./modules/DisplayTaskInHtml";
+import storedData from "./modules/LoadStoredTasks";
 import deleteTask from "./modules/DeleteTask";
 
 

@@ -1,5 +1,5 @@
-import {list} from './AddToList.js';
-import displayInHtml from './DisplayInHtml.js';
+import {list} from './AddTaskToList.js';
+import displayInHtml from './DisplayTaskInHtml.js';
 
 const storedData = ()=>{
     const data = JSON.parse(localStorage.getItem('Tasks'));
@@ -9,7 +9,6 @@ const storedData = ()=>{
             list.push(task);
         })
     }
-
 }
 
 export default storedData;

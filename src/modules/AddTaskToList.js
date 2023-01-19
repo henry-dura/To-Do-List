@@ -1,4 +1,4 @@
-import displayInHtml from "./DisplayInHtml";
+import displayInHtml from "./DisplayTaskInHtml";
 
 
 export const descriptionInput = document.querySelector("#description-input");

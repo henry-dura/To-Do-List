@@ -1,4 +1,4 @@
-import { list } from "./AddToList.js";
+import { list } from "./AddTaskToList.js";
 
 export default function deleteTask(e) {
   if (e.target.classList.contains("fa-trash-can")) {
