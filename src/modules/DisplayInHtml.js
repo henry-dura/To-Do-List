@@ -2,7 +2,7 @@
 import {list} from './AddToList.js';
 
 
-export const taskList = document.querySelector(".task-list");
+export const taskList = document.querySelector(".list-holder");
 
 
 const displayInHtml = (item)=>{
@@ -15,7 +15,7 @@ const displayInHtml = (item)=>{
             <p>${item.description}</p>
         </div>
         
-        <i class="fa-solid fa-trash-can" id="${list.length}"></i>
+        <i class="fa-solid fa-trash-can" id="${list.length}" ></i>
     </div>
     <hr>`;
  taskList.appendChild(div);
