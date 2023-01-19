@@ -20,14 +20,20 @@ const displayInHtml = (item) => {
 
 export default displayInHtml;
 
-
+ const clearButton = document.querySelector('.clear');
 function checkboxSelected(e){
     if(e.target.classList.contains('check')){
         e.target.parentElement.parentElement.classList.toggle('checkbox-selected');
-        e.target.parentElement.classList.toggle('checkbox-line')
-        console.log(e.target);
+        e.target.parentElement.classList.toggle('checkbox-line');
+        let id = e.target.parentElement.parentElement.children[1].id;
+        list[id].completed = true;
     }
 
 }
 
-taskList.addEventListener('change',checkboxSelected)
+taskList.addEventListener('change',checkboxSelected);
+clearButton.addEventListener('click',()=>{
+    localStorage.setItem('Tasks', JSON.stringify(list.filter(task => task.completed === false)));
+    window.location.reload();
+
+})

@@ -60,7 +60,10 @@ input[type="checkbox"] {
   background: whitesmoke;
   border: 0;
   color: gray;
+  border-radius: 8px;
 }
+
+
 
 .hide {
   display: none;
