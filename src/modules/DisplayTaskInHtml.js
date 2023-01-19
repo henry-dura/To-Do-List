@@ -26,20 +26,5 @@ export default displayInHtml;
 
 
 
-function editable(e){
-    let oldText = e.target.children[0].children[1].textContent;
-    let newText;
-    taskList.addEventListener('focusout',()=>{
-        newText = e.target.children[0].children[1].textContent;
-        list.forEach(task =>{
-            if(task.description == oldText){
-                task.description = newText;
-                localStorage.setItem('Tasks', JSON.stringify(list));
-            }
-        })
-    });
 
-    
-}
 
-taskList.addEventListener('click',editable);
