@@ -2,11 +2,10 @@
   display: flex;
   gap: 20px;
   align-items: center;
-  
 }
 
-.full-list-line{
-  display:flex;
+.full-list-line {
+  display: flex;
   justify-content: space-between;
   align-items: center;
 }
@@ -17,7 +16,6 @@
   margin: 10% auto;
   padding-top: 20px;
 }
-
 
 .heading {
   display: flex;
@@ -51,7 +49,7 @@ input[type="checkbox"] {
   color: gray;
 }
 
-.hide{
+.hide {
   display: none;
 }
 
