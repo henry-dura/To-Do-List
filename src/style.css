@@ -57,12 +57,16 @@ input[type="checkbox"] {
   padding: 24px;
   margin-top: -20px;
   font-size: 1.2rem;
-  background: whitesmoke;
+  background: rgb(209, 123, 123);
+  font-weight: 900;
+  font-size: 1.4rem;
   border: 0;
-  color: gray;
-  border-radius: 8px;
+  border-radius: 0 0 8px 8px;
 }
 
+.clear:hover{
+  background-color: red;
+}
 
 
 .hide {
