@@ -9,7 +9,6 @@
     - [Install](#install)
     - [Run tests](#run-tests)
   - [Authors](#authors)
-  - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing](#-contributing)
   - [Show your support](#show-your-support)
   - [Acknowledgments](#acknowledgments)
@@ -17,8 +16,10 @@
 
 
 
+
 # To DO List
 - To Do List is a simple application that you can use to list your daily tasks and check them off as you complete the task.
+
 
 
 
@@ -31,7 +32,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[COMING SOON](##)
+[COMING SOON](###)
 
 
 ## Getting Started
@@ -50,15 +51,14 @@ In order to run this project you need:
 ### Install
 
 Install this project with:
-```sh
-    cd your-desired-folder
-    git clone https://github.com/henry-dura/To-Do-List.git
-    - Open it in the Code editor (Visual studio code, sublime text e.t.c) installed on your computer.
-    - Run: npm install webpack webpack-cli --save-dev
-    - In the terminal, run npm start to start the project
 
-    
-```
+- `cd` your-desired-folder
+- `git clone https://github.com/henry-dura/To-Do-List.git`
+-  Open it in the Code editor (Visual studio code, sublime text e.t.c) installed on your computer.
+- Run: `npm install webpack webpack-cli --save-dev`
+- In the terminal, run `npm start` to start the project
+
+  
 
 ### Run tests
  ```sh
@@ -79,26 +79,17 @@ Install this project with:
 
 <!-- FUTURE FEATURES -->
 
-## 🔭 Future Features <a name="future-features"></a>
-
-
-- [ ] **Interactive List**
-- [ ] **Live demo**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/henry-dura/To-Do-List/issues).
 
+
 ## Show your support
 
 If you like this project, kindly give a ⭐️.
+
 
 ## Acknowledgments
 
@@ -109,5 +100,7 @@ A list of resources that i find helpful and would like to give credit to :
 - [Youtube ](https://www.youtube.com)
 - [W3schools ](https://www.w3schools.com)
 - [Stackoverflow ](https://stackoverflow.com)
+
+
 ## License
 - This project is MIT [MIT](./MIT.md) licensed.
