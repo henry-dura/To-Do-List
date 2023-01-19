@@ -8,7 +8,7 @@ const displayInHtml = (item) => {
   div.innerHTML = `
     <div class="full-list-line">
         <div class="list-line">
-            <input type="checkbox"  name="${item.description}" value="${item.description}">
+            <input type="checkbox" class="check" name="${item.description}" value="${item.description}">
             <p contenteditable="true" class="description-paragraph">${item.description}</p>
         </div>
         
@@ -19,3 +19,15 @@ const displayInHtml = (item) => {
 };
 
 export default displayInHtml;
+
+
+function checkboxSelected(e){
+    if(e.target.classList.contains('check')){
+        e.target.parentElement.parentElement.classList.toggle('checkbox-selected');
+        e.target.parentElement.classList.toggle('checkbox-line')
+        console.log(e.target);
+    }
+
+}
+
+taskList.addEventListener('change',checkboxSelected)

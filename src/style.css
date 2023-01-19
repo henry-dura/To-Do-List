@@ -15,6 +15,7 @@
   box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
   margin: 10% auto;
   padding-top: 20px;
+  border-radius: 8px;
 }
 
 .heading {
@@ -37,6 +38,18 @@ input[type="text"] {
 
 input[type="checkbox"] {
   transform: scale(2, 2);
+}
+
+.checkbox-selected{
+  background-color: whitesmoke;
+}
+.checkbox-line{
+  text-decoration: line-through;
+  font-style: italic;
+}
+.fa-trash-can{
+  color: red;
+  text-decoration:none ;
 }
 
 .clear {
