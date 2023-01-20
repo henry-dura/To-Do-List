@@ -9,7 +9,7 @@ const displayInHtml = (item) => {
     <div class="full-list-line">
         <div class="list-line">
             <input type="checkbox" class="check" name="${item.description}" value="${item.description}">
-            <p contenteditable="true" class="description-paragraph">${item.description}</p>
+            <p  class="description-paragraph">${item.description}</p>
         </div>
         
         <i class=" hide fa-solid fa-trash-can" id="${list.length}" ></i>
