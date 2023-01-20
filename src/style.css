@@ -11,7 +11,7 @@
 }
 
 .container {
-  width: 50%;
+  width: 90%;
   box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
   margin: 10% auto;
   padding-top: 20px;
@@ -69,4 +69,10 @@ input[type="checkbox"] {
 
 .hide {
   display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 60%;
+  }
 }
