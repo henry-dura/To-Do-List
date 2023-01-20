@@ -32,7 +32,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[COMING SOON](###)
+[LIVE VIEW](https://henry-dura.github.io/To-Do-List/dist/)
 
 
 ## Getting Started
